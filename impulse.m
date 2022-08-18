@@ -1,11 +1,7 @@
-% FIGURE9_1.M 
-%
-% Kilian and Lutkepohl (2017), Structural VAR Analysis, Cambridge University Press.
-% This file generates Figure 9.1
 
 clear
 clear all
-%Lutz Kilian 4.2
+
 h=20;           % IRF Horizon
 p=4;            % Lag order
 load('bpdata.mat')

@@ -1,21 +1,15 @@
 
-%% This file creates the Counter Factual for Homework 3, ECO 761
+%% This file creates the Counter Factual for ECO 761 class project at University of kentucky
 %%%       Outline    %%%
 % 1) Reads in the data and intaializes values
 % 2) Calculates the VAR and IRF
 % 3) Gives weights for each of structural shocks at a given time horizon
 % 4)
 % 5) Plots the Histroical Decompostion for each varaible and the CF
-% like figure 4.4 Kilan Lutz 
 
-
-%% Section 1) Read in and intialize the data
+%% Section 1) Read, intialize, and global the data
 clear;
 close all;
-
-
-%This defines variables that are global, meaning the all files interacting
-% with this script will use them.
 global h t;
 
 debug = false;
@@ -23,12 +17,12 @@ h=15;           % Maximum impulse response horizon
 p=4;            % Lag order
 
 %I read the data in as a table, but we want it in matrix form
-y = readtable('/Users/chase/Downloads/bpdata.xlsx','ReadRowNames',true);
+y = readtable('/Users/zye227/ECO761/bpdata.xlsx','ReadRowNames',true);
 
 % The order is y ,t, g. We want the order to be t,g,y T
-% This selects each row ":" from speficifed columns.
-%Notation is written as X(row, column).
 y = y(:, {'t', 'g', 'y'});
+
+
 % We need the data as an array, this function does the conversion.
 y = table2array(y);
 

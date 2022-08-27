@@ -1,5 +1,8 @@
+%Real Business Cycle Model Simulation%
+
+
+
 % Neoclassical model with government spending financed by lump sum taxes
-% Valerie Ramey, April 2017
 
 %----------------------------------------------------------------
 % 0. Housekeeping (close all graphic windows)

@@ -135,3 +135,4 @@ stoch_simul(loglinear, order = 1);
 
 statistic1 = 100*sqrt(diag(oo_.var(1:6,1:6)))./oo_.mean(1:6);
 dyntable(options_,'Relative standard deviations in %',strvcat('VARIABLE','REL. S.D.'),M_.endo_names(1:6,:),statistic1,10,8,4);
+[rbchomework.log](https://github.com/zyeecon/MATLAB-Dynare/files/9437772/rbchomework.log)

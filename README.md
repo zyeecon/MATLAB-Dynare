@@ -1,4 +1,4 @@
-# MATLAB-Dynare
+# MATLAB simulation
 MATLAB time series simulation <br/>
 ![counter](https://user-images.githubusercontent.com/61847185/187025939-1c144992-ad26-4790-89d5-bf9326478dc5.jpg)
 
